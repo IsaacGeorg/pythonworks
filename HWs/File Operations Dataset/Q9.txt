@@ -1,0 +1,3 @@
+Read Even Lines from a File:
+Create a Python program that reads and prints 
+only the even-numbered lines from a file.

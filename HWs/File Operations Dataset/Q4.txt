@@ -1,0 +1,3 @@
+Line Count in a File:
+Write a Python program that reads a file and 
+prints the total number of lines in the file.

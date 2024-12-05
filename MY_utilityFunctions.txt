@@ -1,0 +1,13 @@
+map()
+eg: x,k=map(int, input().split())
+The variables are separated and the values are mapped to the respective variables.
+
+eval()
+The eval() is just like print() function where the eval() takes an input string computation formula and prints the output value.
+
+zip()
+The zip function is to iterate the values of string1 and string 2 one by one respectively.
+This zip function is used in for loop
+
+count()
+To count how many repetitions has occured in the list or process in looping statements.

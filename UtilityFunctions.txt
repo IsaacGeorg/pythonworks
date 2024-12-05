@@ -1,0 +1,108 @@
+print("message")                         => To print a message
+type(object)                             => Return data type of object
+input("message")                         => To read value from console
+round(object,precision)                  => How much decimal points wants to be printed at the resultant  
+lower()                                  => Uppercase To lowercase
+len()                                    => To find the length of a string
+while() loop                             => For repeatition operation without start and stop
+for() loop                               => For repeatition operation with start and stop
+range()                                  => range of values from start to stop by steps
+min(num1,num2)                           => return Smallest number
+max(num1,num2)                           => return largest number
+def function_name(parameter, arg)
+  
+     function definition
+     return
+
+function_name()
+
+
+if:
+else:
+elif:
+for:
+while:
+class:
+try:
+except:
+finally:
+
+
+
+STRING METHODS:          LIST METHODS:          TUPLE METHODS:           SET:                                                DICTIONARY
+* split()                * append()             * index()                SET DEFINITION:                                     {} =>Definition
+* strip()                * pop()                * count()                set()                                               get()
+* replace()              * insert()                                      # No duplicates Allowed                             pop()
+* join()                 * index()                                       # Indexing does not support                         keys()
+* capitalize()           * copy()                                        # Insertion Order is not preserved                  items()
+* casefold()             * sort()                                        # A set can be updated with another set             duplicates are not allowed
+* isalnum()              * extend()                                      # mutable                                           updatable
+* isalpha()              * count()
+* isdigit()              * reverse()                                                       
+* startswith()           * clear()
+* endswith()             * remove()
+                                                                         SET METHODS:
+                                                                         add(object)     #To add an object to the set
+                                                                         intersection(set)
+                                                                         union(set)
+                                                                         difference(set)
+                                                                         remove(element or object)
+                                                                         issubset()
+                                                                         issuperset()
+                                                                         isdisjoint()
+                                                                         symmetricdifference()
+                                                                         update()
+                                                                                          
+split()       => String is converted into list of Strings
+Example:
+a = "this is a string"
+a = a.split(" ") # a is converted to a list of strings. 
+print a
+['this', 'is', 'a', 'string']
+
+join()          => The list of strings are joined
+Example: Here the list of strings are joined with a '-' symbol
+a = "-".join(a)
+print a
+this-is-a-string 
+
+strip()                  => Used to remove the first letter of a word or sentence
+
+
+map()
+eg: x,k=map(int, input().split())
+The variables are separated and the values are mapped to the respective variables.
+
+eval()
+The eval() is just like print() function where the eval() takes an input string computation formula and prints the output value.
+
+zip()
+The zip function is to iterate the values of string1 and string 2 one by one respectively.
+This zip function is used in for loop
+
+count()
+To count how many repetitions has occured in the list or process in looping statements.
+
+OOP:
+python string class defined
+class is a collection of objects
+
+
+
+
+
+try :
+     doubtful code
+except:
+     handling code
+finally
+raise
+
+
+
+Object
+class:
+attributes:
+methods(functionalities):
+
+

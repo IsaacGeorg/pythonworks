@@ -1,0 +1,58 @@
+list:
+duplicates allowed
+update
+insertion order preserved
+
+tuple:
+immutable  ==> not updatable
+
+set:
+duplicates are not allowed
+insertion order not preserved
+updatable
+
+dict:
+object  ==> To hold (key:value pair)
+
+
+
+
+regular expression:
+
+To find the patterns in any id card: AAdhar car, license number, passport id
+
+[0-9] digits
+[a-z] small case alphabets
+upper case
+alphanumeric
+special characters
+[0-9]{2}            {2} refers to quantifiers
+(91)?  ==> 91 is optional
+(91)*  ==> zero or more occurnce
+(91)+ ==> atmost one occurence
+
+finditer : group of objects
+if we found a match, we can know its index position and its required value
+findall : list
+fullmatch
+
+Decorator:
+adding a special feature or functionality, without changing the already defined function
+@property :- without changing the function definition, we can call a method as attribute( ADDING A NEW FUNCTIONALITY)
+@abstractmethod:- 
+
+
+method overloading: same method name, different number of parameters
+
+class Person:
+    def add(self,num1,num2):
+        print(num1+num2)
+    def add()
+
+
+    def add(self,*args):
+
+method overriding: 
+Rules:
+the child class must be inherited from parent class
+signature must be same
